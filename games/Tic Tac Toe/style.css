@@ -1,0 +1,79 @@
+body {
+  background-color: black; 
+  color: white;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Comfortaa', sans-serif;
+  font-family: 'Nova Square', sans-serif;
+}
+
+canvas {
+  border: 2px solid #194d33;
+}
+
+form {
+  text-align: center;
+  margin-top: 5%;
+}
+
+#back
+img {
+  position: fixed;
+  margin: -490px 0px 0px -670px;
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  cursor: pointer;
+  transform: perspective(1px) translateZ(0);
+}
+
+#score {
+  display: grid;
+  padding: 0px 400px;
+  margin: 10px 50px 10px 0px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+  "wins draws losses";
+}
+
+span {
+  font-weight: bold;
+}
+
+.btnreset {
+    margin-top: 25px;
+    padding: 9px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Nova Square', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #ffffff;
+    transition: all .4s ease-in-out;
+  }
+  
+  .btnreset:hover {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+    animation-duration: 3s;
+    text-shadow:
+      0 0 30px rgb(255, 0, 0),
+      0 0 60px rgba(255, 77, 77, 0.8),
+      0 0 75px rgba(255, 101, 101, 0.6),
+      0 0 80px rgba(255, 83, 83, 0.4),
+      0 0 77px rgba(255, 168, 168, 0.5),
+      0 0 78px rgba(255, 138, 138, 0.4),
+      0 0 79px rgba(136, 42, 42, 0.3),
+      0 0 80px rgba(119, 5, 5, 0.2),
+      0 0 120px rgba(48, 1, 1, 0.1);
+  }
+
+
+
+  @media (min-width: 360px) and (min-height: 640px) and (max-width: 720px) and (max-height: 1280px) {
+
+  }

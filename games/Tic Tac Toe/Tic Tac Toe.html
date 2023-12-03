@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Comfortaa:wght@300;400;500&family=Nova+Square&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Tic Tac Toe</title>
+</head>
+
+<body>
+  <form>
+    <h1>Tic Tac Toe</h1>
+    <canvas id="ticTacToeCanvas" width="300" height="300"></canvas>
+
+    <div id="score">
+      <p>⭕ - Victorias: <span id="wins">0</span></p>
+      <p>Empates: <span id="draws">0</span></p>
+      <p>❌ - Victorias: <span id="losses">0</span></p>
+    </div>
+
+    <div id="back">
+      <img src="/media/home_icon.jpg" alt="Inicio">
+    </div>
+
+    <div id="btn">
+      <input class="btnreset" type="button" value="Reiniciar Puntos">
+    </div>
+    </div>
+  </form>
+</body>
+<script src="script.js"></script>
+
+</html>
