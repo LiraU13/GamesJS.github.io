@@ -143,12 +143,6 @@ document.addEventListener("DOMContentLoaded", function () {
         losses = 0;
         updateScore();
     });
-
-    const backButton = document.getElementById("back");
-
-    backButton.addEventListener("click", function () {
-        window.location.href = "/index.html";
-    });
 });
 
 function resetBoard() {
