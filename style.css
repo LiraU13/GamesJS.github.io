@@ -109,7 +109,7 @@ h1 {
 .j2 {
   grid-area: j2;
   margin: 30px 0px 0px -20px;
-  background: url("media/flappybird_icon.png") center/cover no-repeat;
+  background: url("media/mummble_icon.png") center/cover no-repeat;
   display: inline-block;
   vertical-align: middle;
   transform: perspective(1px) translateZ(0);
@@ -193,12 +193,14 @@ h1 {
 
 @media (min-width: 10px) and (max-width: 800px) {
   h1 {
+    margin-top: 35px;
     font-size: 2rem;
     color: white;
     text-align: center;
   }
 
   .target {
+    margin-top: 40px;
     width: 300px;
     height: 410px;
     backdrop-filter: blur(2px);
