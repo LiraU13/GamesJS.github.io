@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,14 +9,26 @@
       href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Comfortaa:wght@300;400;500&family=Nova+Square&display=swap"
       rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
-    <title>Pong</title>
+    <title>Swimming Penguin</title>
 </head>
 <body>
-    
-    
-    <div id="back">
-        <a href="../../index.html"><img src="../../media/Play Room.jpg" alt=""></a>
-      </div>
+  <canvas id="board"></canvas>
+
+  <h1>Swimming Penguin</h1>
+
+  <div id="score">
+    <p>Puntos: <span id="win">0</span></p>
+  </div>
+
+  <div class="message" style="display: none;">
+    <h3 id="lose">¡Perdiste!</h3>
+  </div>
+
+  <h2>Presiona SPACE para iniciar</h2>
+
+  <div id="back">
+    <a href="../../index.html"><img src="../../media/Play Room.jpg" alt=""></a>
+  </div>
 </body>
 <script src="script.js"></script>
 </html>

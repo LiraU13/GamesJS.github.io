@@ -92,7 +92,7 @@ h1 {
 .j1 {
   grid-area: j1;
   margin: 30px 0px 0px 40px;
-  background: url("media/pong_icon.png") center/cover no-repeat;
+  background: url("media/gato_icon.png") center/cover no-repeat;
   display: inline-block;
   vertical-align: middle;
   transform: perspective(1px) translateZ(0);
@@ -109,7 +109,7 @@ h1 {
 .j2 {
   grid-area: j2;
   margin: 30px 0px 0px -20px;
-  background: url("media/rps_icon.jpg") center/cover no-repeat;
+  background: url("media/flappybird_icon.png") center/cover no-repeat;
   display: inline-block;
   vertical-align: middle;
   transform: perspective(1px) translateZ(0);
@@ -126,7 +126,7 @@ h1 {
 .j3 {
   grid-area: j3;
   margin: 30px 0px 0px -85px;
-  background: url("media/pacman_icon.jpg") center/cover no-repeat;
+  background: url("media/rps_icon.jpg") center/cover no-repeat;
   display: inline-block;
   vertical-align: middle;
   transform: perspective(1px) translateZ(0);
@@ -143,7 +143,7 @@ h1 {
 .j4 {
   grid-area: j4;
   margin: 30px 0px 30px 40px;
-  background: url("media/flappybird_icon.png") center/cover no-repeat;
+  background: url("media/") center/cover no-repeat;
   display: inline-block;
   vertical-align: middle;
   transform: perspective(1px) translateZ(0);
@@ -160,7 +160,7 @@ h1 {
 .j5 {
   grid-area: j5;
   margin: 30px 0px 30px -20px;
-  background: url("media/gato_icon.png") center/cover no-repeat;
+  background: url("media/") center/cover no-repeat;
   display: inline-block;
   vertical-align: middle;
   transform: perspective(1px) translateZ(0);
@@ -177,7 +177,7 @@ h1 {
 .j6 {
   grid-area: j6;
   margin: 30px 30px 30px -80px;
-  background: url("media/brickbreaker_icon.png") center/cover no-repeat;
+  background: url("media/") center/cover no-repeat;
   display: inline-block;
   vertical-align: middle;
   transform: perspective(1px) translateZ(0);

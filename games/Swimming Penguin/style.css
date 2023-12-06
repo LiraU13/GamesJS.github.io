@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Nova Square', sans-serif;
+    text-align: center;
+}
+
+#board {
+    background-image: url("bg.png");
+    margin: 5px auto;
+}
+
+#back
+img {
+  position: fixed;
+  margin: -19% 0px 0px -49%;
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  cursor: pointer;
+  transform: perspective(1px) translateZ(0);
+}
+
+h1 {
+    font-size: 1.25rem;
+    margin: -40% 0px 0px 60%;
+}
+
+#score {
+    margin: 5% 0px 0px 60%;
+}
+  
+span {
+   font-weight: bold;
+}
+
+h2 {
+    font-size: 1.25rem;
+    margin: 4% 0px 0px 60%;
+}
+
+#lose {
+    font-size: 1.1rem;
+    padding: -20px;
+    color: red;
+    margin: 0% 0px 0px 60%;
+}

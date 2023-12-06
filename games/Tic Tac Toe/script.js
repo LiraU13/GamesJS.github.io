@@ -28,7 +28,7 @@ function drawGrid() {
 
 function drawX(x, y) {
     ctx.strokeStyle = '#FF0000';
-    ctx.lineWidth = 4;
+    ctx.lineWidth = 5;
 
     ctx.beginPath();
     ctx.moveTo(x * cellSize + 10, y * cellSize + 10);
@@ -43,7 +43,7 @@ function drawX(x, y) {
 
 function drawO(x, y) {
     ctx.strokeStyle = '#0000FF';
-    ctx.lineWidth = 4;
+    ctx.lineWidth = 5;
 
     ctx.beginPath();
     ctx.arc((x + 0.5) * cellSize, (y + 0.5) * cellSize, cellSize / 2 - 10, 0, Math.PI * 2);
@@ -92,8 +92,10 @@ function checkWinner() {
 
 function handleWin(winner) {
     if (winner === 'X') {
+        document.getElementById('winO').style.display = 'block';
         losses++;
     } else {
+        document.getElementById('winX').style.display = 'block';
         wins++;
     }
     updateScore();
@@ -101,6 +103,7 @@ function handleWin(winner) {
 }
 
 function handleDraw() {
+    document.getElementById('isdraw').style.display = 'block';
     draws++;
     updateScore();
     resetBoard();
