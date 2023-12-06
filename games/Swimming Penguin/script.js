@@ -135,7 +135,7 @@ function placePipes() {
 }
 
 function moveBird(e) {
-    if (e.code == "Space" || e.code == "ArrowUp") {
+    if (e.code == "Space" || e.code == "ArrowUp" || e.type === 'touchstart') {
         velocityY = -6;
 
         if (gameOver) {
@@ -147,6 +147,9 @@ function moveBird(e) {
         }
     }
 }
+
+document.addEventListener('keydown', moveBird);
+document.addEventListener('touchstart', moveBird);
 
 function ocultarPerdida() {
     const mensajePerdida = document.querySelector('.message');

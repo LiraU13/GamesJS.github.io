@@ -7,15 +7,22 @@ body {
     text-align: center;
 }
 
+h1 {
+    font-size: 1.25rem;
+    margin: 2% 0px 0px 60%;
+}
+
 #board {
     background-image: url("bg.png");
-    margin: 5px auto;
+    margin: -30px auto;
 }
 
 #back
 img {
   position: fixed;
-  margin: -19% 0px 0px -49%;
+  top: 15px;
+  left: 15px;
+  margin: 0px;
   width: 60px;
   height: 60px;
   border-radius: 100px;
@@ -23,13 +30,8 @@ img {
   transform: perspective(1px) translateZ(0);
 }
 
-h1 {
-    font-size: 1.25rem;
-    margin: -40% 0px 0px 60%;
-}
-
 #score {
-    margin: 5% 0px 0px 60%;
+    margin: -35% 0px 0px 60%;
 }
   
 span {
@@ -43,7 +45,56 @@ h2 {
 
 #lose {
     font-size: 1.1rem;
-    padding: -20px;
     color: red;
     margin: 0% 0px 0px 60%;
+}
+
+@media (min-width: 10px) and (max-width: 800px) { 
+    h1 {
+        font-size: 1.25rem;
+        margin: 3% 0px 0px 0%;
+    }
+    
+    #board {
+        background-image: url("bg.png");
+        margin: 10px auto;
+    }
+    
+    #back
+    img {
+    top: 15px;
+      left: 10px;
+      margin: 0% 0px 0px 0%;
+      width: 45px;
+      height: 45px;
+    }
+    
+    #score {
+        font-weight: bolder;
+        font-size: 2rem;
+        color: rgb(0, 0, 0);
+        margin: -145% 0px 0px 0%;
+    }
+    
+    h2 {
+        position: fixed;
+        top: 90%;
+        left: -42%;
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: orangered;
+    }
+    
+    h2#play-message {
+        display: block;
+    }
+    h2#desktop-message {
+        display: none; 
+    }
+
+    #lose {
+        font-size: 2.5rem;
+        color: red;
+        margin: 50% 0px 0px 0%;
+    }
 }
